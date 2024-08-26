@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(135deg, #f06, #ff9);
+    font-family: 'Lemonada', cursive;
+}
+
+div {
+    display: block;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Lemonada', cursive !important;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.2em;
+    transition: background 0.3s;
+}
+
+li:hover {
+    background: #f7f7f7;
+}
+
+#completed-tasks span {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 1.2em !important;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #f06;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ff0047;
+}
